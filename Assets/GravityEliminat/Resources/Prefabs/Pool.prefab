@@ -1,0 +1,2261 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5211779786804118613
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3199991070588111527}
+  - component: {fileID: 8171600385819184852}
+  m_Layer: 0
+  m_Name: UI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3199991070588111527
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5211779786804118613}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7296722693176417791}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8171600385819184852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5211779786804118613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59dfbc0f4f3a98b4ebf4ad40fc3f43aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  poolName: UI
+  matchPoolScale: 0
+  matchPoolLayer: 0
+  dontReparent: 0
+  _dontDestroyOnLoad: 0
+  logMessages: 0
+  _perPrefabPoolOptions:
+  - prefab: {fileID: 8966397072207434752, guid: fb6fcd1b07d13c64ba952c895d389a69,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 6958863352570646391, guid: 121266aaa7f244e499b44bb96f50f9b4,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 509986263292176184, guid: f8873f29488ac014fb7a57017ab7fbdc, type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 8966397072207434752, guid: 11f543e01ea3d59439c338e801909b24,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 3989822148076641211, guid: bebfa3995b46dcd4b997641af9448b93,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 991060576490735763, guid: 5177819ced114db46a3ce89798cd6405, type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  maxParticleDespawnTime: 300
+  _prefabPools: []
+--- !u!1 &7296722693176417785
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7296722693176417791}
+  - component: {fileID: 7296722693176417790}
+  m_Layer: 0
+  m_Name: Pool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7296722693176417791
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7296722693176417785}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7296722694036662400}
+  - {fileID: 7296722693269269417}
+  - {fileID: 7296722694286596904}
+  - {fileID: 3199991070588111527}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7296722693176417790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7296722693176417785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99b2fa8d63e6b454fb42405e11824693, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sp: {fileID: 0}
+--- !u!1 &7296722693269269416
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7296722693269269417}
+  - component: {fileID: 7296722693269269422}
+  m_Layer: 0
+  m_Name: Prop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7296722693269269417
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7296722693269269416}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.09, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7296722693176417791}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7296722693269269422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7296722693269269416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59dfbc0f4f3a98b4ebf4ad40fc3f43aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  poolName: PropBall
+  matchPoolScale: 0
+  matchPoolLayer: 0
+  dontReparent: 0
+  _dontDestroyOnLoad: 0
+  logMessages: 0
+  _perPrefabPoolOptions:
+  - prefab: {fileID: 8118058164009009989, guid: 4cdae19494313044b951639864c440e4,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 348772577102156906, guid: de160a137fe947a4495c4fada2d36b91, type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 7024384897062766755, guid: bac545defb21d6e41b959e2385086a08,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 2137733651813470921, guid: 3a7d07ad88f736e4290b28d8835ed2f3,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 2531554752662073935, guid: 5b07fe90573f97847af05f8b6f55ebc5,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 3454665974543839905, guid: 2141e1427714c394ca1b016c996755b9,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 2348438140165224098, guid: 0e51d90c7d790984e916fbf05708f956,
+      type: 3}
+    preloadAmount: 5
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 1064123475618148609, guid: 872bc84f0bfd3c44184606d7b803aecf,
+      type: 3}
+    preloadAmount: 5
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 2455518512913260226, guid: cf968ee8b7bb8a347abafdddadf110b1,
+      type: 3}
+    preloadAmount: 5
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 6497969634463876384, guid: e8176070d2b6a5e4a910cd9f7109e5d9,
+      type: 3}
+    preloadAmount: 5
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 8112346120550323706, guid: 913251fc0ceab8b4cb78a0494d8306f8,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 683392184316176101, guid: 4d14fde0bc69c6347acc6d6a88225364, type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 4163151518260830747, guid: 7cd6b03538d47164aaa424a10d84e5f4,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 7978180664191048283, guid: 73ccfcc9ec52c724f82f94670429a71b,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 4520861419877653106, guid: 12a24b588e9b20f4f816727d6157550f,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 2919745838437436234, guid: 9ba38215ac93b2546a8e22b86ad5e6f5,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 8112346120550323706, guid: c8149e423beae57408b1b63c8c1d6739,
+      type: 3}
+    preloadAmount: 5
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 646769828545680852, guid: aa69a0698a357e14eaa2a325ca1d0eca, type: 3}
+    preloadAmount: 5
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 6973894162522739517, guid: da84433cfae99464ca8a4d9374a67e8b,
+      type: 3}
+    preloadAmount: 5
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 3633364570451781760, guid: aee650a7ac7a9674e9fc1e8ffea4ee45,
+      type: 3}
+    preloadAmount: 5
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 2964316917362309322, guid: 089b8d769bf531046b7bb1804e651f7f,
+      type: 3}
+    preloadAmount: 5
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 3455178181241002504, guid: 38bc9b9739e6eb245b5cd1790782e4fa,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 6418881005923307393, guid: a6d30eff24317234290563b2c7da5593,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 181744859032514694, guid: 9b5d882e7c942374b9e8d0e8a1100853, type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 2018203477193441942, guid: d510c33134b4a2643bd5f430ccd6a8c9,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 0}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  maxParticleDespawnTime: 300
+  _prefabPools: []
+--- !u!1 &7296722694036662403
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7296722694036662400}
+  - component: {fileID: 7296722694036662401}
+  m_Layer: 0
+  m_Name: Ball
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7296722694036662400
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7296722694036662403}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7296722693176417791}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7296722694036662401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7296722694036662403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59dfbc0f4f3a98b4ebf4ad40fc3f43aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  poolName: BallPool
+  matchPoolScale: 0
+  matchPoolLayer: 0
+  dontReparent: 0
+  _dontDestroyOnLoad: 0
+  logMessages: 0
+  _perPrefabPoolOptions:
+  - prefab: {fileID: 4807875162522589412, guid: 107f84ecbdf561346b468d6ed1226f41,
+      type: 3}
+    preloadAmount: 5
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 7369663432722673272, guid: 28301e98b30b4fc43a0e778a3cc736e7,
+      type: 3}
+    preloadAmount: 5
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 3790816538576238524, guid: 31107d4b71af4e44f87a218e601076b1,
+      type: 3}
+    preloadAmount: 50
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 1793077527125947126, guid: 1c96ef76220ad3041bc1b11aebb7c379,
+      type: 3}
+    preloadAmount: 5
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 557108211826755231, guid: 73dfbb4a892c0c548aac503c889f9c6b, type: 3}
+    preloadAmount: 20
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 2895309768344727376, guid: e1beb5f43a5e3ad41b6777548e2411a0,
+      type: 3}
+    preloadAmount: 40
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 6357729837849749236, guid: 2b7735caf20210c41b70e8e25b771a76,
+      type: 3}
+    preloadAmount: 10
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 502039030609727754, guid: 44d2c9a6d4b52c948bf8b7d39f7c273e, type: 3}
+    preloadAmount: 10
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 7968246816658414790, guid: 05c6683059e72584f9d69d2f3c6cf8a0,
+      type: 3}
+    preloadAmount: 10
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 3960684048094561191, guid: 406454d62a51dc84587a06b5caa55cdc,
+      type: 3}
+    preloadAmount: 20
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 1398982294687176603, guid: d90a0cd9933b59b4caabcbd09529facf,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 8812136546446986470, guid: e25a26ae6837b0740a37609fb58be04f,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 1602778346985297729, guid: 158773f4672df254f8fd2d6c694465a9,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 2838490405797797444, guid: 70286c942d1c8f0458e18317de796704,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  maxParticleDespawnTime: 300
+  _prefabPools: []
+--- !u!1 &7296722694286596907
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7296722694286596904}
+  - component: {fileID: 7296722694286596905}
+  m_Layer: 0
+  m_Name: Effect
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7296722694286596904
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7296722694286596907}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7296722693176417791}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7296722694286596905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7296722694286596907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59dfbc0f4f3a98b4ebf4ad40fc3f43aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  poolName: AllEffect
+  matchPoolScale: 0
+  matchPoolLayer: 0
+  dontReparent: 0
+  _dontDestroyOnLoad: 0
+  logMessages: 0
+  _perPrefabPoolOptions:
+  - prefab: {fileID: 3245138731961980376, guid: 0d5405979308efc4489e4d3e3ccaeb34,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 1170610911390656804, guid: 8299f25b4cdb2a146a71f74c22b98e72,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 7913325332144226267, guid: 7d70d2262abc2fe46b8fcb5eae58eb9b,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 8569605514877074872, guid: 8672339cc2312bd419a6b09b29c3d5d0,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 4946571512421680668, guid: bf4449e061f9054449d1dbfc3e548d13,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 3144315707859604178, guid: a3338da5d55852348b90860895b96cac,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 641652803653619162, guid: 6a671a63ddedf284c8fde1086d3581aa, type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 5473901129195827632, guid: 87ebf1db97d368d42add094d1ba69467,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 8625098864565510652, guid: 8abf0858f13c596479195f0f671e397f,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 6811637877983694145, guid: cbfa51288c58c0845aee3e369c733532,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 24909017103894004, guid: 3d6665cbed852234bae613281d3627ea, type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 6257453469249563746, guid: 7f980d060628f334b82f52094b730917,
+      type: 3}
+    preloadAmount: 50
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 4263323463805391149, guid: 4079cfa16fc6cf840981679269bf3b51,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 5261045843022453185, guid: 2f9aa28d40c3802468f5c973922af20d,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 5460134571338392969, guid: c1ad0521e3f291f46a8aca9ef4064683,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 1556210859265741083, guid: 21ee3ab4f60a24046b1a1e7064cf9c06,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 2530965118739937472, guid: 3dff9f1527a1b6b438d43cdf127eeafc,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 1310938240672744733, guid: da954a0b3e823cc468601eacf1ebf548,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 3346433685738191459, guid: 396f136e5997df64284c93c7fe0b9bbd,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 1533359335107898491, guid: 56c6a13235b37694dbfeee353531b781,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 4753321068449767775, guid: dc6122b6be5d77c40b6f0e3e74c3cffc,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 76274764251293159, guid: 206430e7b542a0d48b1bb446051b94c6, type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 5023291915164881713, guid: bba75a9edc4c424439a46e8141906376,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 2969737544861695800, guid: 31d1c69c6c07a3d479f69d57498b1c77,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 667668085230304874, guid: cfdaa33603da8af4aaa91f1ef877b88d, type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 802694167407350074, guid: 0d91332382e48c749a65ed7430702eca, type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 4362508632004009357, guid: fb65fd97343a3f74a94e3c41f3c05c34,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 6084456872462769239, guid: fe216c1764941354985d2efbe3b56fdd,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 681567648352415267, guid: c6fe58643d6249a4e9b082c2caf31cdb, type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 3872150103933451675, guid: 374aad1296f1f6644a6c99d0c4420f69,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 4035702992358851015, guid: 514a2dd7ca248c249a0d626b08c169aa,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 5541575632167973515, guid: c240c66b6ed183f47aaa11e63b212588,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 4368721084280958996, guid: df3cfe26f47d28949807878c28558fef,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 1294001778319224668, guid: 12049aa5b53dfb2438675ab726b9131b,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 6313013952721120823, guid: 75559398b5f6e8d418eb0089f7f7d821,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 7602590519220470242, guid: 267d7076a6e80a749b57aaf991c75168,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 3880189396125771591, guid: 7276f492c7027e04f83603b73d443741,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 369967356331098626, guid: 21a8b758865a91b4792ac625d834f99e, type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 8090447306538524368, guid: ce380f552c476094082415f257f46d08,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 3429846822684453589, guid: 009ffb92b02fa2e46be5d52f2c5ae2ca,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 8076960100389410120, guid: 2c0d4846ebcd1a04eb014f0fb8acc1ac,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 2848977971806600468, guid: a0571ed525fbfc848a7cda0c2ea99b46,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 1732794905931594359, guid: e03c92593d3ab5c48bf0d6940783f2e5,
+      type: 3}
+    preloadAmount: 40
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 7151257381085956481, guid: 72c7ac4773a23b94b9702b5ad8b338da,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 5907183174642544127, guid: 1a1e15c17c4e4e24c8473af0b897e3d0,
+      type: 3}
+    preloadAmount: 8
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 3914398844309602920, guid: 32b105ea5a8c0704794bf1918a723d38,
+      type: 3}
+    preloadAmount: 5
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 1799846554475578963, guid: 9471d79f8e1206a478edc139fba43db2,
+      type: 3}
+    preloadAmount: 5
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 2504281987378965702, guid: 95e590c10839202499213b074b526d5e,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 5769551202465957416, guid: 0c2ec66aa98f1994eae77f9894237355,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 1085475514485842819, guid: f8a405bbba1155f40ace42d009c5b076,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 3284030479985329439, guid: 55f3e3f88d6c2df4283f89ed9120cfd7,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 8733157703147348067, guid: d9dd9e221a3060c498eeba9f82a7fbf0,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 8964567863172187896, guid: eda776a965dbd094bbe803c0015e9929,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 1087171926724330090, guid: 1fc1297cdbc449a4b8dc2561d8079389,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 1933342537742995527, guid: e7a445cf8a9117145957b36e8723dcbe,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 5840414502947764921, guid: bb1d4603880ca8e46a3dcfa3e4981217,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 1940223223201681125, guid: 176521af653cfa5408c8de3dec2e26c1,
+      type: 3}
+    preloadAmount: 10
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 4075058211383739440, guid: a406fc14270fbc24b874c4329c815bb3,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 7431188083672212791, guid: 9e61628f81411934886184586eae429e,
+      type: 3}
+    preloadAmount: 20
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 560523309860445771, guid: f3f5b87bcee9fae4199bbf497700bb88, type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 4676960624120558701, guid: 46b750eb9eed1cd4bbf733da9f0aeebc,
+      type: 3}
+    preloadAmount: 3
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 391688334330386687, guid: 0c451f1fc2e251a499044d519c2bccc8, type: 3}
+    preloadAmount: 3
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 2739444513199851897, guid: 6140eac4fa57c7341bc723ca0c6b7f56,
+      type: 3}
+    preloadAmount: 3
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 3118742800087422094, guid: 91a06d429a757b449ab29929989727df,
+      type: 3}
+    preloadAmount: 3
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 2590900110853820556, guid: 8eddf9861e3a1614cb12c8aa2c1f6ffc,
+      type: 3}
+    preloadAmount: 3
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 6761031749551861318, guid: 1d2300ccb13b7b04382f69e050ec91d4,
+      type: 3}
+    preloadAmount: 3
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 413348194183338196, guid: 2d2b3d421e0756142ad2b57b1433586d, type: 3}
+    preloadAmount: 3
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 2023540587699613641, guid: 93d18dceef56549408f3cede3b91ce92,
+      type: 3}
+    preloadAmount: 3
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 4004146682230012097, guid: 96a21056677c6594aaa94fd101e4370e,
+      type: 3}
+    preloadAmount: 3
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 5953585653299413335, guid: f9765052493d43d48b884483cd0dcd4f,
+      type: 3}
+    preloadAmount: 3
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 1105361433301985175, guid: 878294e5c85b35a4f8242c95db6ff512,
+      type: 3}
+    preloadAmount: 3
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 2063109645794867843, guid: ed54e5c06c2c334438928c3f1c2e8f60,
+      type: 3}
+    preloadAmount: 3
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 287359779882148429, guid: 745a22bca3460984d873b0a31ca319d5, type: 3}
+    preloadAmount: 3
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 6773264604738291659, guid: 992765eb0fb5021448df8e8e36aa8c9b,
+      type: 3}
+    preloadAmount: 3
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 3203212348887866552, guid: a73be42a7abb6f24299c62f2a0b0d08f,
+      type: 3}
+    preloadAmount: 3
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 8368179344753190118, guid: 20796e60ef9be2742b18421d234aebab,
+      type: 3}
+    preloadAmount: 3
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 4529534960794709593, guid: a81add802697fc44ca0db9264f048f5a,
+      type: 3}
+    preloadAmount: 3
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 8608054112203709498, guid: 31a1a8ae87ef36349bba78ddd73c325e,
+      type: 3}
+    preloadAmount: 3
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 1561640626067627409, guid: 4ac1b7c4a3f5a3e49b4fa0c16dbaea4b,
+      type: 3}
+    preloadAmount: 3
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 6183663652241136974, guid: 6c670c5ee9a10c746b0c171ea7b4578c,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 2587699795241892893, guid: e5853bb570d0a944092673e87c2d4b6b,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 814009256667349506, guid: 4884bfbc2a900f347999c5e89b10eca8, type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 41619715840070040, guid: f30eeea3c77318e4081f14cf81b747da, type: 3}
+    preloadAmount: 10
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 8577523937138417139, guid: 1e7c5f92172c11e47a28aac86ec9a797,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 2162085258757297784, guid: 88c5468aefa1d444eba58ba29bf695b6,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 1970942485344186606, guid: b7461e97e79eaa346abe3651a341e41c,
+      type: 3}
+    preloadAmount: 5
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 3569716748822941760, guid: be85216f3d7fb0c41b690588588162a7,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 5522336503376507957, guid: adceacbae4bc25243859c19d5c61432f,
+      type: 3}
+    preloadAmount: 1
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  - prefab: {fileID: 4401290423326734058, guid: 4de71257f106b744683784c5863b68ad,
+      type: 3}
+    preloadAmount: 50
+    preloadTime: 0
+    preloadFrames: 2
+    preloadDelay: 0
+    limitInstances: 0
+    limitAmount: 100
+    limitFIFO: 0
+    cullDespawned: 0
+    cullAbove: 50
+    cullDelay: 60
+    cullMaxPerPass: 5
+    _logMessages: 0
+    spawnPool: {fileID: 0}
+  maxParticleDespawnTime: 300
+  _prefabPools: []
